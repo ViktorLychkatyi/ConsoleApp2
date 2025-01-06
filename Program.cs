@@ -1,23 +1,25 @@
-﻿namespace ConsoleApp2
+﻿using System.Linq.Expressions;
+
+namespace ConsoleApp2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int width = 6;
-            int height = 5;
-            int[,] ar = new int[height, width];
-            int number = 1;
+            // ================== 1 ==================
 
-            for (int y = 0; y < height; y++)
-            {
-                for (int x = 0; x < width; x++)
-                {
-                    ar[y, x] = number++;
-                    Console.Write("{0, -8}", ar[y, x]); // -5 это для выравнивание по левому краю в ряд
-                }
-                Console.WriteLine();
-            }
+            //Array1D ar1d = new Array1D();
+            //ar1d.Print();
+
+            // ================== 2 ==================
+
+            //Array2D ar2d = new Array2D();
+            //ar2d.Print();
+
+            // ================== 3 ==================
+
+
+
         }
     }
 }
