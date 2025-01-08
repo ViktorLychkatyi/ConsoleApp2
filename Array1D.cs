@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,43 +8,59 @@ namespace ConsoleApp2
 {
     internal class Array1D
     {
-        public void StepsNumbers(string number, int steps)
+        public void Run()
         {
-            for (int i = 0; i < steps; i++)
+            Console.Write("Введите количество шагов: ");
+            int step = int.Parse(Console.ReadLine());
+
+            Console.Write("Введите число для последовательности: ");
+            string number = Console.ReadLine();
+            int[] ar = new int[number.Length];
+
+            for (int i = 0; i < number.Length; i++)
             {
-                Console.WriteLine($"Шаг {i + 1}: {number}");
-                StringBuilder result = new StringBuilder();
+                ar[i] = int.Parse(number[i].ToString());
+            }
+
+            for (int i = 0; i < step; i++)
+            {
+                foreach (int n in ar)
+                {
+                    Console.Write(n);
+                }
+                Console.WriteLine();
+
+                StringBuilder value = new StringBuilder();
                 int count = 1;
 
-                for (int j = 1; j < number.Length; j++)
+                for (int j = 1; j < ar.Length; j++)
                 {
-                    if (number[j] == number[j - 1])
+                    if (ar[j] == ar[j - 1])
                     {
                         count++;
                     }
-                    else if (number[j] != number[j - 1])
+                    else
                     {
-                        result.Append(count);
-                        result.Append(number[j - 1]);
+                        value.Append(count);
+                        value.Append(ar[j - 1]);
                         count = 1;
                     }
                 }
-                result.Append(count);
-                result.Append(number[number.Length - 1]);
-                number = result.ToString();
+                value.Append(count);
+                value.Append(ar[ar.Length - 1]);
+
+                number = value.ToString();
+                ar = new int[number.Length];
+                for (int k = 0; k < number.Length; k++)
+                {
+                    ar[k] = int.Parse(number[k].ToString());
+                }
             }
         }
 
         public void Print()
         {
-            Console.Write("Введите начальное число: ");
-            string number = Console.ReadLine();
-
-            Console.Write("Введите количество шагов: ");
-            int steps = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("\nРезультаты выполнения:");
-            StepsNumbers(number, steps);
+            Run();
         }
     }
 }

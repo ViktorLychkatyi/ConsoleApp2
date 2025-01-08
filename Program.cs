@@ -1,6 +1,4 @@
-﻿using System.Linq.Expressions;
-
-namespace ConsoleApp2
+﻿namespace ConsoleApp2
 {
     class Program
     {
@@ -18,8 +16,8 @@ namespace ConsoleApp2
 
             // ================== 3 ==================
 
-
-
+            //AnalyzeText at = new AnalyzeText();
+            //at.Print();
         }
     }
 }

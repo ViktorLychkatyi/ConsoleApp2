@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Desktop\\ConsoleApp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70D06905-D7EE-4825-AB1C-BA9B3A6D6BD9}|ConsoleApp2.csproj|d:\\desktop\\consoleapp2\\array1d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70D06905-D7EE-4825-AB1C-BA9B3A6D6BD9}|ConsoleApp2.csproj|solutionrelative:array1d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70D06905-D7EE-4825-AB1C-BA9B3A6D6BD9}|ConsoleApp2.csproj|d:\\desktop\\consoleapp2\\analyzetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70D06905-D7EE-4825-AB1C-BA9B3A6D6BD9}|ConsoleApp2.csproj|solutionrelative:analyzetext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70D06905-D7EE-4825-AB1C-BA9B3A6D6BD9}|ConsoleApp2.csproj|d:\\desktop\\consoleapp2\\array2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70D06905-D7EE-4825-AB1C-BA9B3A6D6BD9}|ConsoleApp2.csproj|solutionrelative:array2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70D06905-D7EE-4825-AB1C-BA9B3A6D6BD9}|ConsoleApp2.csproj|d:\\desktop\\consoleapp2\\array1d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70D06905-D7EE-4825-AB1C-BA9B3A6D6BD9}|ConsoleApp2.csproj|solutionrelative:array1d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70D06905-D7EE-4825-AB1C-BA9B3A6D6BD9}|ConsoleApp2.csproj|d:\\desktop\\consoleapp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,45 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AnalyzeText.cs",
               "DocumentMoniker": "D:\\Desktop\\ConsoleApp2\\AnalyzeText.cs",
               "RelativeDocumentMoniker": "AnalyzeText.cs",
               "ToolTip": "D:\\Desktop\\ConsoleApp2\\AnalyzeText.cs",
               "RelativeToolTip": "AnalyzeText.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T20:20:50.629Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Array1D.cs",
-              "DocumentMoniker": "D:\\Desktop\\ConsoleApp2\\Array1D.cs",
-              "RelativeDocumentMoniker": "Array1D.cs",
-              "ToolTip": "D:\\Desktop\\ConsoleApp2\\Array1D.cs",
-              "RelativeToolTip": "Array1D.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T20:20:36.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Array2D.cs",
               "DocumentMoniker": "D:\\Desktop\\ConsoleApp2\\Array2D.cs",
               "RelativeDocumentMoniker": "Array2D.cs",
               "ToolTip": "D:\\Desktop\\ConsoleApp2\\Array2D.cs",
               "RelativeToolTip": "Array2D.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-04T20:20:44.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Array1D.cs",
+              "DocumentMoniker": "D:\\Desktop\\ConsoleApp2\\Array1D.cs",
+              "RelativeDocumentMoniker": "Array1D.cs",
+              "ToolTip": "D:\\Desktop\\ConsoleApp2\\Array1D.cs",
+              "RelativeToolTip": "Array1D.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:20:36.42Z",
               "EditorCaption": ""
             },
             {
@@ -75,9 +75,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Desktop\\ConsoleApp2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T17:11:52.056Z"
+              "WhenOpened": "2025-01-02T17:11:52.056Z",
+              "EditorCaption": ""
             }
           ]
         }
